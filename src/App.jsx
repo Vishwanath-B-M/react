@@ -1,10 +1,10 @@
-import Inputchange from './inputchange.jsx';
+import ColorPicker from './colorpicker.jsx';
 
 function App(){
   return (
     <>
     
-   <Inputchange/>        
+   <ColorPicker/>        
     </>
   );
 }
