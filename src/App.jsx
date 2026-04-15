@@ -1,10 +1,9 @@
-import ColorPicker from './colorpicker.jsx';
+import ObjectChange  from './objectchange.jsx';
 
 function App(){
   return (
-    <>
-    
-   <ColorPicker/>        
+    <> 
+   <ObjectChange/>        
     </>
   );
 }
