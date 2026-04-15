@@ -11,7 +11,7 @@ const addfood=document.getElementById("addfood").value;
 
 }
 function RemoveFoods(index){
-        setfoods(foods.filter((_,i)=>i!==index))
+        setfoods(foods.filter((element,i)=>i!==index))
 }
 return(<>
         <h1> list of foods</h1>
