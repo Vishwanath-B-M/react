@@ -1,9 +1,9 @@
-import Food from './arrayuseState.jsx';
+import Car from './multiobjectuseState.jsx';
 
 function App(){
   return (
     <> 
-   <Food/>        
+   <Car/>        
     </>
   );
 }
