@@ -7,6 +7,9 @@ function Car(){
 function AddCarAarry(){
     const newcar={year:caryear,make:carmake,model:carmodel}
     setcars(cars=>[...cars,newcar])
+    setcaryear(new Date().getFullYear())
+    setcarmake("")
+    setcarmodel("")
 
 }
 function RemoveArray(index){
