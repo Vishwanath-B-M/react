@@ -1,9 +1,9 @@
-import ObjectChange  from './objectchange.jsx';
+import Food from './arrayuseState.jsx';
 
 function App(){
   return (
     <> 
-   <ObjectChange/>        
+   <Food/>        
     </>
   );
 }
