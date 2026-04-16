@@ -7,7 +7,7 @@ function MyComponent(){
     }
     useEffect(()=>{
         document.title=`count:${count}`
-    },(0))
+    },[])
 
     return(<>
      <h2>{count}</h2>
