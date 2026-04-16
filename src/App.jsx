@@ -1,4 +1,4 @@
-import MyComponent from './todoapp.jsx';
+import MyComponent from './useeffect.jsx';
 
 function App(){
   return (
