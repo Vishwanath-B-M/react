@@ -54,8 +54,9 @@ return(<>
 </div>
 <div className="container">
 <ol>
+  <h3> List of works to do</h3>
   {tasks.map((task,index)=>
-    <li className="li" key={task+index}>{task}
+    <li className="li" key={task+index}>{index+1}: {task}
     <div className="buttons">
     <button className="delete" onClick={()=>DeleteTask(index)}>delete</button>
     <button className="up" onClick={()=>MoveUp(index)}>🆙</button>

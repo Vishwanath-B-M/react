@@ -30,6 +30,8 @@ body {
   border-radius: 5px;
   cursor: pointer;
   font-size: 2rem;
+  width: 150px;
+  height: 75px;
 }
 
 .add:hover {
@@ -88,4 +90,3 @@ body {
   background-color: white;
   color:hsl(0, 100%, 50%);;
 }
-
