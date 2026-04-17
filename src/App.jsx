@@ -1,5 +1,5 @@
-import MyComponent from './useeffect.jsx';
-
+import './App.css'
+import MyComponent from './todolist.jsx'
 function App(){
   return (
     <> 
