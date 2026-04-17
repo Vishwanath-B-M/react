@@ -1,9 +1,9 @@
-import './App.css'
-import MyComponent from './todolist.jsx'
+
+import DigitalClock from './digitalclock.jsx'
 function App(){
   return (
     <> 
-   <MyComponent/>        
+   <DigitalClock/>        
     </>
   );
 }
