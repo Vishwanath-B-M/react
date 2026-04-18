@@ -6,16 +6,21 @@ function DigitalClock(){
 
 
     useEffect(()=>{
-        settime(new date)
-
-    },[])
+        const invervalid=setInterval(()=>{
+            settime(new Date())
+        },1000)
+        },[])
     function formateTime(){
         let hour=time.getHours()
         const minutes=time.getMinutes();
         const seconds=time.getSeconds();
         let tt=hour>12 ? "PM":"AM";
         hour=hour%12||12;
-        return `${hour}:${minutes}:${seconds}:${tt}`;
+        return `${Digits(hour)}:${Digits(minutes)}:${Digits(seconds)}:${tt}`;
+    }
+    function Digits(number){
+        return (number<10 ?"0":"")+number
+
     }
     
 
