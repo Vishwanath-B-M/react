@@ -16,7 +16,7 @@ function DigitalClock(){
         const seconds=time.getSeconds();
         let tt=hour>12 ? "PM":"AM";
         hour=hour%12||12;
-        return `${Digits(hour)}:${Digits(minutes)}:${Digits(seconds)}:${tt}`;
+        return `${Digits(hour)}:${Digits(minutes)}:${Digits(seconds)} ${tt}`;
     }
     function Digits(number){
         return (number<10 ?"0":"")+number

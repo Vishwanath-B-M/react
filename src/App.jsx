@@ -1,4 +1,4 @@
-
+import './clock.css'
 import DigitalClock from './digitalclock.jsx'
 function App(){
   return (
