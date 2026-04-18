@@ -1,0 +1,84 @@
+body{
+    background-image: url(/Users/vishwanath/react/myfirstreactapp/src/assets/imgclock.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+.clock {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 7rem;
+    color: rgba(255, 255, 255, 0.786);
+    font-family: monospace;
+    backdrop-filter: blur(5px);
+    width: 100%;
+}
+    
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.start,.stop,.reset{
+    width: 220px;
+    height: 90px;
+    font-size: 4rem;
+    box-shadow: 5px 5px 5px white;
+}
+.start {
+    background-color: rgb(255, 255, 255,0.5);
+    color:whitesmoke;
+    text-shadow: 3px;
+    border:3px solid ;
+    border-radius: 10px;
+}
+.stop {
+    background-color: rgb(255, 255, 255,0.5);
+    color: aliceblue;
+    border:3px solid ;
+    border-radius: 10px;
+}
+.reset{
+    background-color:rgb(255, 255, 255,0.5) ;
+    color: rgb(240, 255, 255);
+    border:3px solid ;
+    border-radius: 10px;
+}
+
+.start:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    color: black;
+    font-size: 4.5rem;
+    border: none;
+}
+.reset:hover{
+    background: rgba(255, 255, 255, 0.203);
+    backdrop-filter: blur(5px);
+    color: black;
+    font-size: 4.5rem;
+    border: none;
+}
+.stop:hover {
+    background-color: rgba(255, 255, 255, 0.216) ;
+    backdrop-filter: blur(10px);
+    color: black;
+    font-size: 5rem;
+    border: none;
+}
+
+

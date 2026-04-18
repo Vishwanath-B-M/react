@@ -46,12 +46,15 @@ miliseconds=String(miliseconds).padStart(2,"0")
   return `${hours}:${minutes}:${seconds}:${miliseconds}`
 }
 return(<>
+<title>StopWatch</title>
 <div className="main">
   <div className="sub">
         <h1 className="clock"> {formatting()} </h1>
-        <button onClick={start}>start</button>
-        <button onClick={stop}>stop</button>
-        <button onClick={reset}>reset</button>
+        <div className="button">
+        <button className="start" onClick={start}>start</button>
+        <button className="stop" onClick={stop}>stop</button>
+        <button className="reset" onClick={reset}>reset</button>
+        </div>
   </div>
 </div>
 </>)
